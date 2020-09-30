@@ -2,56 +2,41 @@
 #include <conio.h>
 #include <string>
 
-using namespace std;
+void clearScreen{
+    system("PAUSE");
+    system("CLS");
+}
+
+void displayRandomNumber{
+    int randomNumber = rand() % 10;
+    int inputNumber;
+    std::cout << randomNumber << std::endl;
+}
+
+int repeat = 0;
 
 int main()
 {
     bool goodAnswer = true;
     while (goodAnswer == true) {
-        int rand1 = rand() % 10;
-        int rand2 = rand() % 10;
-        int rand3 = rand() % 10;
+        std::cout << "Simon says" << std::endl;
 
-        int num1;
-        int num2;
-        int num3;
+        for (int i = 0; i < 3 + repeat; i++) {
+            displayRandomNumber();
+        }
 
-        cout << "Simon says" << endl;
-        cout << rand1 << endl;
-        cout << rand2 << endl;
-        cout << rand3 << endl;
+        clearScreen();
 
-        system("PAUSE");
-        system("CLS");
-
-        cin >> num1;
+        std::cin >> num1 >> std::endl;
         if (num1 == rand1) {
-            cout << "Good" << endl;
+            std::cout << "Good" << std::endl;
         }
         else {
-            cout << "Bad, you lose" << endl;
+            std::cout << "Bad, you lose" << std::endl;
             break;
-        }
-        
-        cin >> num2;
-        if (num2 == rand2) {
-            cout << "Good" << endl;
-        }
-        else {
-            cout << "Bad, you lose" << endl;
-            break;
-        }
+        }     
 
-        cin >> num3;
-        if (num3 == rand3) {
-            cout << "Good" << endl;
-        }
-        else {
-            cout << "Bad, you lose" << endl;
-            break;
-        }
-
-        system("PAUSE");
-        system("CLS");
+        repeat++;
+        clearScreen();
     }
 }
