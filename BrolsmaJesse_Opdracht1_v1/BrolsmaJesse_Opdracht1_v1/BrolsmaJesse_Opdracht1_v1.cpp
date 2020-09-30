@@ -1,27 +1,48 @@
 #include <iostream>
-
-class Teacher {
-private:
-    float salary;
-};
+#include <string>
 
 class Student {
-private:
-    float salary;
+    public:
+        std::string name;
+        int studentNumber;
+        int year;
+        int field;
+        int group;
+};
+
+class Teacher {
+    public:
+        std::string name;
+        float salary;
+        int field;
 };
 
 class Module {
-private:
-    float salary;
+    public:
+        std::string name;
+        int field;
+        int startDate;
+        void getModules();
 };
 
-class Lesson{
-private:
-    float salary;
+class Lesson {
+    public:
+        std::string name;
+        std::string place;
+        int day;
+        int startTime;
+        int startTime;
+        void displayLesson();
 };
 
-int main()
-{
-    
+void Module::getModules() {
+    //vind de opgegeven modules bij ieder persoon
 }
+
+void Lesson::displayLesson(){
+    //laat de les zien bij de gebruiker's modules op de juiste datum en tijd
+}
+
+
+
 

@@ -9,8 +9,18 @@ void clearScreen{
 
 void displayRandomNumber{
     int randomNumber = rand() % 10;
-    int inputNumber;
     std::cout << randomNumber << std::endl;
+}
+
+void inputSameNumbers{
+    std::cin >> num1 >> std::endl;
+    if () {
+        std::cout << "Good" << std::endl;
+    }
+    else {
+        std::cout << "Bad, you lose" << std::endl;
+        break;
+    }
 }
 
 int repeat = 0;
@@ -27,14 +37,9 @@ int main()
 
         clearScreen();
 
-        std::cin >> num1 >> std::endl;
-        if (num1 == rand1) {
-            std::cout << "Good" << std::endl;
+        for (int i = 0; i < 3 + repeat; i++) {
+            inputSameNumbers();
         }
-        else {
-            std::cout << "Bad, you lose" << std::endl;
-            break;
-        }     
 
         repeat++;
         clearScreen();

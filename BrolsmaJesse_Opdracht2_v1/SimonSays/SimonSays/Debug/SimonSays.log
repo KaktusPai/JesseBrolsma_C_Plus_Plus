@@ -1,2 +1,28 @@
 ﻿  SimonSays.cpp
-  SimonSays.vcxproj -> D:\Users\Jesse\Bureaublad\School\cPlusPlus\SimonSays\Debug\SimonSays.exe
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(5,17): error C2182: 'clearScreen': illegal use of type 'void'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(6,20): error C2059: syntax error: ';'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(7,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(7,5): error C2365: 'system': redefinition; previous definition was 'function'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1218): message : see declaration of 'system'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(8,1): error C2059: syntax error: '}'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(8,1): error C2143: syntax error: missing ';' before '}'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(10,25): error C2143: syntax error: missing ';' before '{'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(10,25): error C2447: '{': missing function header (old-style formal list?)
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(15,22): error C2182: 'inputSameNumbers': illegal use of type 'void'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(16,17): error C2065: 'num1': undeclared identifier
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(16,34): error C2059: syntax error: ';'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(17,5): error C2059: syntax error: 'if'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(17,11): error C2143: syntax error: missing ';' before '{'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(17,11): error C2447: '{': missing function header (old-style formal list?)
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(20,5): error C2059: syntax error: 'else'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(20,10): error C2143: syntax error: missing ';' before '{'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(20,10): error C2447: '{': missing function header (old-style formal list?)
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(24,1): error C2059: syntax error: '}'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(24,1): error C2143: syntax error: missing ';' before '}'
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(34,33): error C2065: 'repeat': undeclared identifier
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(35,13): error C3861: 'displayRandomNumber': identifier not found
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(38,9): error C2064: term does not evaluate to a function taking 0 arguments
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(40,33): error C2065: 'repeat': undeclared identifier
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(41,13): error C2064: term does not evaluate to a function taking 0 arguments
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(44,9): error C2065: 'repeat': undeclared identifier
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht2_v1\SimonSays\SimonSays\SimonSays.cpp(45,9): error C2064: term does not evaluate to a function taking 0 arguments
