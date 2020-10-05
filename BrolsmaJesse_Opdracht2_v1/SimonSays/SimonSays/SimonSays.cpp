@@ -2,24 +2,24 @@
 #include <conio.h>
 #include <string>
 
-void clearScreen{
+void clearScreen(){
     system("PAUSE");
     system("CLS");
 }
 
-void displayRandomNumber{
+void displayRandomNumber(){
     int randomNumber = rand() % 10;
     std::cout << randomNumber << std::endl;
 }
 
-void inputSameNumbers{
+void inputSameNumbers(){
     std::cin >> num1 >> std::endl;
     if () {
         std::cout << "Good" << std::endl;
     }
     else {
         std::cout << "Bad, you lose" << std::endl;
-        break;
+        return;
     }
 }
 
