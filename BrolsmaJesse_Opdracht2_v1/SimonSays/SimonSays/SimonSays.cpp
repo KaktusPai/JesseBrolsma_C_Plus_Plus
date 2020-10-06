@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <string>
 
 void clearScreen(){
@@ -13,8 +12,9 @@ void displayRandomNumber(){
 }
 
 void inputSameNumbers(){
-    std::cin >> num1 >> std::endl;
-    if () {
+	int num1;
+    std::cin >> num1 std::endl;
+    if (num1) {
         std::cout << "Good" << std::endl;
     }
     else {
