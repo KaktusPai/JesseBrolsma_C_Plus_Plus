@@ -34,6 +34,9 @@ void Koffieautomaat::geldCheck(float een, float twee, float drie){
 	if (inMunt == 3) {
 		inEurowaarde = drie;
 	}
+	else {
+		inEurowaarde = 0;
+	}
 }
 
 void Koffieautomaat::mogelijkeKoffie() {
@@ -45,11 +48,11 @@ void Koffieautomaat::mogelijkeKoffie() {
 		std::cout << "Koffie" << std::endl;
 		std::cout << "Espresso" << std::endl;
 	}
-	if (inEurowaarde == 0) {
+	if (inEurowaarde == -1) {
 		std::cout << "Koffie" << std::endl;
 		std::cout << "Espresso" << std::endl;
 		std::cout << "Cappuccino" << std::endl;
-	}
+	} 
 }
 
 VijftigCent vc;
@@ -61,7 +64,7 @@ int main()
 {
 	vc.euroWaarde = 0.50;
 	ee.euroWaarde = 1.00;
-	km.euroWaarde = 0;
+	km.euroWaarde = -1;
 
     std::cout << "Voor een getal in horend bij jou muntje" << std::endl;
     std::cout << "<1> €0,50" << std::endl;
