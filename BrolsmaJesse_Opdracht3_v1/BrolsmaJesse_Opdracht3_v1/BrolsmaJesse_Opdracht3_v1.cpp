@@ -1,39 +1,13 @@
 #include <iostream>
 #include <string>
+#include "Student.h"
+#include "Docent.h"
 
-class Persoon {
-	public:
-		int age;
-		std::string name; 
-		virtual void getAge();
-		virtual void getName();
-};
-
-class Student : public Persoon {
-	public: 
-		int studentNummer;
-		int year;
-		int field;
-};
-
-class Docent : public Persoon {
-	public:
-		float salary;
-};
-
-void Persoon::getAge(){
-	std::cout << age << std::endl;
-}
-
-void Persoon::getName() {
-	std::cout << name << std::endl;
-}
+Student studentObject;
+Docent docentObject;
 
 int main()
 {
-	Student studentObject;
-	Docent docentObject;
-
 	studentObject.name = "Klaas";
 	studentObject.age = 22;
 	studentObject.getName();

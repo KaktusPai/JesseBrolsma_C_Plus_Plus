@@ -1,2 +1,4 @@
 ﻿  BrolsmaJesse_Opdracht3_v1.cpp
-  BrolsmaJesse_Opdracht3_v1.vcxproj -> D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht3_v1\Debug\BrolsmaJesse_Opdracht3_v1.exe
+BrolsmaJesse_Opdracht3_v1.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall Persoon::getAge(void)" (?getAge@Persoon@@UAEXXZ) referenced in function _main
+BrolsmaJesse_Opdracht3_v1.obj : error LNK2019: unresolved external symbol "public: virtual void __thiscall Persoon::getName(void)" (?getName@Persoon@@UAEXXZ) referenced in function _main
+D:\Users\Jesse\Bureaublad\School\cPlusPlus\JesseBrolsma_C_Plus_Plus\BrolsmaJesse_Opdracht3_v1\Debug\BrolsmaJesse_Opdracht3_v1.exe : fatal error LNK1120: 2 unresolved externals
