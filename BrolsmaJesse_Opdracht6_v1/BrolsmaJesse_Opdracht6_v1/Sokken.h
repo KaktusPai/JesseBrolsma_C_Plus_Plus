@@ -3,5 +3,5 @@
 
 class Sokken {
 	public:
-		
+		std::string kleur;
 };

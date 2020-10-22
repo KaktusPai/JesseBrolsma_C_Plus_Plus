@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-class koffer {
+class Koffer {
 	public:
-
+		std::string kleur = "grijs";
 };
