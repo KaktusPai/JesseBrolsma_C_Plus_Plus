@@ -1,5 +1,7 @@
 #include "Boek.h"
+#include <string>
+#include <iostream>
 
-Boek::Boek(bool a) {
-	available = a;
+Boek::~Boek() {
+	std::cout << "Boek gaat de kast in" << std::endl;
 }

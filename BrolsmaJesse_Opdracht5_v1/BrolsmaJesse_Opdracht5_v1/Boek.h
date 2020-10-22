@@ -1,8 +1,7 @@
 #pragma once
-#include "Bibliotheek.h"
 
-class Boek : public Bibliotheek {
-	public: 
-		bool available;
-		Boek(bool a);
+class Boek {
+public:
+	bool beschikbaar = true;
+	~Boek();
 };
