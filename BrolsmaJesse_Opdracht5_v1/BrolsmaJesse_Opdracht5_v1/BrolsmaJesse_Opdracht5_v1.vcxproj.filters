@@ -18,5 +18,19 @@
     <ClCompile Include="BrolsmaJesse_Opdracht5_v1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bibliotheek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bibliotheek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

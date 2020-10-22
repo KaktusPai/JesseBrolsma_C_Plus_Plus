@@ -1,19 +1,11 @@
 #include <iostream>
+#include "Bibliotheek.h"
+#include "Boek.h"
 
-class Bibliotheek {
-    public:
-        void leenUit();
-};
-
-class Boek : public Bibliotheek {
-
-};
-
-void Bibliotheek::leenUit() {
-
-}
+Bibliotheek* bt = new Bibliotheek();
 
 int main()
 {
-    
+    Boek* b = new Boek(true);
+    delete bt;
 }
