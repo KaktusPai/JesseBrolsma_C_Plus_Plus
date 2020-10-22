@@ -18,5 +18,25 @@
     <ClCompile Include="BrolsmaJesse_Opdracht4_v1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Koffieautomaat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Muntgeld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koffieautomaat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VijftigCent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EenEuro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Koffiemuntje.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

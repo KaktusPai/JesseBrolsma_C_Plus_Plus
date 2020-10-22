@@ -140,6 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BrolsmaJesse_Opdracht4_v1.cpp" />
+    <ClCompile Include="KoffieAutomaat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EenEuro.h" />
+    <ClInclude Include="KoffieAutomaat.h" />
+    <ClInclude Include="KoffieMuntje.h" />
+    <ClInclude Include="MuntGeld.h" />
+    <ClInclude Include="VijftigCent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

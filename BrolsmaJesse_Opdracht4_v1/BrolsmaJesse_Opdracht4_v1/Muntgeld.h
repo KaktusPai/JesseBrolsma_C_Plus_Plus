@@ -1,6 +1,9 @@
 #pragma once
+#include <iostream>
+#include <string>
 
-class Muntgeld {
+class MuntGeld {
 public:
     float euroWaarde;
+    std::string naam;
 };
