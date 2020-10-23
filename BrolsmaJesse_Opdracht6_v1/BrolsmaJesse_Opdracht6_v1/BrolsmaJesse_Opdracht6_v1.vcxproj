@@ -140,6 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BrolsmaJesse_Opdracht6_v1.cpp" />
+    <ClCompile Include="Caravan.cpp" />
+    <ClCompile Include="Koffer.cpp" />
+    <ClCompile Include="Sokken.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Caravan.h" />
